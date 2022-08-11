@@ -70,6 +70,36 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 body._lock {
 	overflow: hidden;
 }
+.red {
+	background-color: #EC5863;
+}
+.blue {
+	background: #4285F4;
+}
+.blue-text {
+	color: #4285F4;
+}
+.red-text {
+	color: #EC5863;
+}
+.title {
+	font-family: 'Rubik';
+	font-weight: 700;
+	font-size: 44px;
+	line-height: 126%;	
+	font-feature-settings: 'pnum' on, 'lnum' on;
+	color: #000000;
+}
+.text {
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 138.5%;
+	letter-spacing: 0.08em;
+	font-feature-settings: 'pnum' on, 'lnum' on;
+	color: #616161;
+}
 
 /* ------------------------- */
 
@@ -100,14 +130,11 @@ body._lock {
 	.menu__list {
 		display: flex;
 		gap: 40px;
+		padding-right: 38px;
 	}
-}
-.menu__list li {
-	margin-bottom: 50px;
 }
 .menu__link {
 	font-family: 'Raleway';
-	font-style: normal;
 	font-weight: 700;
 	font-size: 10px;
 	line-height: 12px;
@@ -129,9 +156,6 @@ body._lock {
 	line-height: 12px;
 	letter-spacing: 0.14em;
 	color: #FCFDFE;
-}
-.blue {
-	background: #4285F4;
 }
 @media (max-width:767px) {
 	.menu__icon {
@@ -178,7 +202,7 @@ body._lock {
 	}
 	.header__download {
 		order: -1;
-		min-width: 180px;
+		min-width: 150px;
 		display: flex;
 		justify-content: flex-start;
 	}
@@ -188,6 +212,9 @@ body._lock {
 		line-height: 26px;
 		letter-spacing: 0.14em;
 	}
+	.menu__list li {
+		margin-bottom: 50px;
+	}
 }
 
 @media (max-width:480px) {
@@ -195,4 +222,54 @@ body._lock {
 		width: 40.22px;
 		overflow: hidden;
 	}
+}
+
+/* -------------------------- */
+
+.take-care {
+	padding-top: 114px;
+}
+.take-care__container {
+}
+@media (min-width: 1080px) {
+	.take-care__main {
+		display: flex;
+		align-items: center;
+	}
+}
+.take-care__main {
+	margin-bottom: 60px;
+}
+.take-care__info {
+	max-width: 497px;
+}
+.take-care__title {
+	margin-bottom: 12px;
+}
+.take-care__text {
+	margin-bottom: 24px;
+}
+.take-care__image {
+	text-align: center;
+}
+.take-care__image img {
+	max-width: 100%;
+	height: auto;
+}
+.take-care__video {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+}
+.video__info {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+.video__image {
+}
+.video__title {
+
+}
+.video__link {
 }
