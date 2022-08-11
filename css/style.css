@@ -133,6 +133,11 @@ body._lock {
 		padding-right: 38px;
 	}
 }
+@media (max-width: 968px) {
+	.menu__list {
+		padding-right: 18px;
+	}
+}
 .menu__link {
 	font-family: 'Raleway';
 	font-weight: 700;
@@ -144,6 +149,10 @@ body._lock {
 	min-width: 252px;
 	display: flex;
 	justify-content: flex-end;
+	background: #EC5863;
+	border-radius: 30px 0px 0px 30px;
+	display: flex;align-items: center;
+	gap: 30px;
 }
 .button {
 	z-index: 15;
@@ -200,13 +209,6 @@ body._lock {
 		padding: 120px 30px 30px 30px;
 		transition: right 0.3s ease 0s;
 	}
-	.header__download {
-		order: -1;
-		min-width: 150px;
-		display: flex;
-		justify-content: flex-start;
-	}
-
 	.menu__link {
 		font-size: 24px;
 		line-height: 26px;
@@ -216,7 +218,6 @@ body._lock {
 		margin-bottom: 50px;
 	}
 }
-
 @media (max-width:480px) {
 	.header__logo {
 		width: 40.22px;
@@ -227,9 +228,7 @@ body._lock {
 /* -------------------------- */
 
 .take-care {
-	padding-top: 114px;
-}
-.take-care__container {
+	padding: 114px 0 54px 0;
 }
 @media (min-width: 1080px) {
 	.take-care__main {
@@ -266,10 +265,31 @@ body._lock {
 	flex-direction: column;
 	gap: 5px;
 }
-.video__image {
-}
 .video__title {
-
+	font-family: 'Rubik';
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 126%;	
+	letter-spacing: 0.08em;
+	font-feature-settings: 'pnum' on, 'lnum' on;
+	color: #B0B0B0;
+	
 }
 .video__link {
+	font-family: 'Rubik';
+	font-weight: 400;
+	font-size: 9px;
+	line-height: 126%;
+	letter-spacing: 0.165em;
+	text-transform: uppercase;
+	font-feature-settings: 'pnum' on, 'lnum' on;
+	color: #000000;
+}
+@media (max-width: 767px) {
+	.take-care__info {
+		margin-bottom: 35px;
+	}
+	.take-care__main {
+		margin-bottom: 35px;
+	}
 }
