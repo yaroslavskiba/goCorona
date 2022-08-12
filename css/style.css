@@ -128,7 +128,7 @@ body._lock {
 .menu__icon {
 	display: none;
 }
-@media (min-width:768px) {
+@media (min-width:769px) {
 	.menu__list {
 		display: flex;
 		gap: 40px;
@@ -161,7 +161,7 @@ body._lock {
 	letter-spacing: 0.14em;
 	color: #FCFDFE;
 }
-@media (max-width:767px) {
+@media (max-width:768px) {
 	.menu__icon {
 		z-index: 5;
 		width: 30px;
@@ -289,7 +289,7 @@ body._lock {
 	font-feature-settings: 'pnum' on, 'lnum' on;
 	color: #000000;
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 	.take-care__info {
 		margin-bottom: 35px;
 	}
@@ -374,7 +374,7 @@ body._lock {
 	min-width: 279px;
 	max-width: 379px;
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 	.stay-safe__container {
 		flex-wrap: wrap;
 		flex-direction: column;
@@ -383,7 +383,6 @@ body._lock {
 	.stay-safe__app {
 		position: relative;
 		margin-left: 0px;
-
 	}
 	.stay-safe__info {
 		order: -1;
@@ -392,7 +391,7 @@ body._lock {
 		max-width: 100%;
 	}
 	.stay-safe {
-		padding: 0 0 75px 0;
+		padding: 0 0 55px 0;
 	}
 }
 
@@ -493,7 +492,7 @@ body._lock {
 	height: 100%;
 
 }
-@media(max-width:767px) {
+@media(max-width:768px) {
 	.experts {
 		padding: 73px 0 50px 0;
 	}
@@ -623,7 +622,7 @@ body._lock {
 	border-radius: 16px;
 	transform: rotate(-30deg);
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 	.healthcare__card {
 		gap: 42px;
 	}
