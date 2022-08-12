@@ -400,7 +400,7 @@ body._lock {
 /* ------------------------- */
 
 .experts {
-	padding: 103px 0 116px 0;
+	padding: 103px 0 45px 0;
 }
 .experts__table {
 	margin: 0 auto;
@@ -514,9 +514,7 @@ body._lock {
 		padding: 15px 0;
 		text-align: center;
 	}
-	.experts {
-		padding: 53px 0 56px 0;
-	}
+
 }
 @media (max-width: 480px) {
 	.experts__video {
