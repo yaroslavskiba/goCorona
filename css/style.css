@@ -514,14 +514,14 @@ body._lock {
 		padding: 15px 0;
 		text-align: center;
 	}
+	.experts {
+		padding: 53px 0 56px 0;
+	}
 }
 @media (max-width: 480px) {
 	.experts__video {
 		flex: 1 1 auto;
 		aspect-ratio: 4 / 3;
-	}
-	.experts {
-		padding: 53px 0 56px 0;
 	}
 	.experts__decor-3 {
 		display: none;
