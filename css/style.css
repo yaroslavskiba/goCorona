@@ -396,6 +396,7 @@ body._lock {
 	}
 }
 
+
 /* ------------------------- */
 
 .experts {
@@ -519,6 +520,12 @@ body._lock {
 		flex: 1 1 auto;
 		aspect-ratio: 4 / 3;
 	}
+	.experts {
+		padding: 53px 0 86px 0;
+	}
+	.experts__decor-3 {
+		display: none;
+	}
 }
 
 /* ---------------- */
@@ -619,5 +626,21 @@ body._lock {
 	.healthcare__decor-4{
 		left: -31px;
 		top: -46px;
+	}
+}
+
+/* ----------------- */
+
+.footer {
+	padding: 28px 0 46px 0; 
+}
+.footer__container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+@media (max-width: 480px) {
+	.footer__container {
+		flex-direction: column;
 	}
 }
